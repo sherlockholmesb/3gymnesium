@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.nav1 img{
+    height: 40px;
+}
+.downmenu{
+    text-decoration: none;
+}
+
+.image img{
+width: 100%;
+height: 553px;
+position: relative;
+}
+.text{
+    color: white;
+    text-align: center;
+     position: absolute;
+    transform: translateY(-500px);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-left: 28%;
+   margin-top: 15px;
+   
+    
+}
+.txt2{
+    font-family: none;
+    margin-top: 20px;
+}
+.txt1{
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+.about{
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px;
+    font-size: 30px;
+}
+.abouttext2{
+    text-align: center;
+}
+
+.card2{
+    height: 10px;
+}
+.col4{
+    width: calc(100%/4);
+    height: 300px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: -9px -3px 7px  rgb(212, 133, 133);
+
+    border-radius: 7px;
+}
+
+.all{
+    margin-top: 50px;
+}
+.all h3{
+    margin-top: 15px;
+
+}
+.all p{
+    margin-top: 15px;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+    margin-top:100px;
+}
+
+
+.pages3{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(235, 89, 89);
+    margin-top: 50px;
+    
+}
+.menu2{
+    color: black !important;
+    transition: 0.5s !important;
+}
+.menu2:hover{
+   color: orange!important; 
+}
